@@ -70,19 +70,19 @@ export const profileChipsAtom = atom<Record<string, ProfilePostsFilter | null>>(
   {},
 );
 
-export const defaultconstellationURL = "constellation.microcosm.blue";
+export const defaultconstellationURL = "constellation.queersky.org";
 export const constellationURLAtom = atomWithStorage<string>(
   "constellationURL",
   defaultconstellationURL,
 );
-export const defaultslingshotURL = "slingshot.microcosm.blue";
+export const defaultslingshotURL = "slingshot.queersky.org";
 export const slingshotURLAtom = atomWithStorage<string>(
   "slingshotURL",
   defaultslingshotURL,
 );
-export const defaultImgCDN = "cdn.bsky.app";
+export const defaultImgCDN = "cdn.queersky.org";
 export const imgCDNAtom = atomWithStorage<string>("imgcdnurl", defaultImgCDN);
-export const defaultVideoCDN = "video.bsky.app";
+export const defaultVideoCDN = "cdn.queersky.org";
 export const videoCDNAtom = atomWithStorage<string>(
   "videocdnurl",
   defaultVideoCDN,
@@ -151,7 +151,7 @@ export const enableWafrnTextAtom = atomWithStorage<boolean>(
 
 export const enableAppViewAtom = atomWithStorage<boolean>(
   "enableAppViewAtom",
-  true,
+  false,
 );
 
 export const enableBetaLabelersAtom = atomWithStorage<boolean>(
