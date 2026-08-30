@@ -4,16 +4,16 @@
 
 declare const __INSTANCE_MODEL__: boolean
 // please change the branding if you are not it hosting on reddwarf.app
-export const HOST_MAIN_TITLE = "Red Dwarf" // large text in branding
-export const HOST_SUB_TITLE = " .app" // smaller text in branding
+export const HOST_MAIN_TITLE = "Queersky" // large text in branding
+export const HOST_SUB_TITLE = " .org" // smaller text in branding
 export const HOST_TITLE = HOST_MAIN_TITLE + HOST_SUB_TITLE // composite used in paragraphs
-export const HOST_CODE_URL = "https://tangled.org/whey.party/red-dwarf"
+export const HOST_CODE_URL = "https://github.com/PathfinderBot/red-dwarf"
 // also replace favicon files and defaultpfp.png and check LogoSvg.tsx
 export const HOST_LOGO_USE_FAVICON = false; // ignores LogoSvg.tsx (recolorable svg) for a static image (the favicon)
 export const HOST_DEFAULT_HUE = 28; // default is 28 for red. mod 360. 294 is a nice purple
 export const HOST_HERO = "/sunset.jpg" // path to the "banner" image of the instance
 export const HOST_ADMIN = "did:plc:tufumi46dykq4fzwtp2ur6kx" // did of the owner/admin, does not give special perms
-export const HOST_DESCRIPTION = "The official flagship hosted Red Dwarf instance, hosted on reddwarf.app, running the latest updates and features" // short 1 sentence description
+export const HOST_DESCRIPTION = "The Bluesky alternative for radqueers, now in alpha." // short 1 sentence description
 /**
  * --- RED DWARF POLICY.TS — MARKDOWN FLAVOR ---
  *

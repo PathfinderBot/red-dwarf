@@ -11,11 +11,11 @@ import { defineConfig } from "vite";
 
 import { generateMetadataPlugin } from "./oauthdev.mts";
 
-const PROD_URL = "https://reddwarf.app";
-const DEV_URL = "https://local3768forumtest.whey.party";
+const PROD_URL = "https://red-dwarf.queersky.org";
+const DEV_URL = "";
 
-const PROD_HANDLE_RESOLVER_PDS = "https://pds-nd.whey.party";
-const DEV_HANDLE_RESOLVER_PDS = "https://bsky.social";
+const PROD_HANDLE_RESOLVER_PDS = "https://at.queersky.org";
+const DEV_HANDLE_RESOLVER_PDS = "";
 let commitHash = "";
 try {
   commitHash = execSync("git rev-parse --short HEAD").toString().trim();
