@@ -12,7 +12,7 @@ export const HOST_CODE_URL = "https://github.com/PathfinderBot/red-dwarf"
 export const HOST_LOGO_USE_FAVICON = false; // ignores LogoSvg.tsx (recolorable svg) for a static image (the favicon)
 export const HOST_DEFAULT_HUE = 28; // default is 28 for red. mod 360. 294 is a nice purple
 export const HOST_HERO = "/sunset.jpg" // path to the "banner" image of the instance
-export const HOST_ADMIN = "did:plc:tufumi46dykq4fzwtp2ur6kx" // did of the owner/admin, does not give special perms
+export const HOST_ADMIN = "did:plc:hgh2b6j57q42qkgdh34nb3ym" // did of the owner/admin, does not give special perms
 export const HOST_DESCRIPTION = "The Bluesky alternative for radqueers, now in alpha." // short 1 sentence description
 /**
  * --- RED DWARF POLICY.TS — MARKDOWN FLAVOR ---
@@ -100,7 +100,7 @@ export const HOST_LABELMERGE = "https://labelmerge.reddwarf.app"
 // forced label providers
 // applies to everyone
 export const FORCED_LABELER_DIDS = [
-  "did:plc:ar7c4by46qjdydhdevvrndac" // bluesky moderation
+  // "did:plc:ar7c4by46qjdydhdevvrndac" // bluesky moderation
 ];
 
 
@@ -111,16 +111,16 @@ export const FORCED_LABELER_DIDS = [
 // TODO: add separate unauthed_forced_labeler_dids later
 
 export const UNAUTHED_FORCE_WARN_LABELS = new Set([
-  "porn",
-  "sexual",
-  "graphic-media",
-  "nudity",
-  "nsfl", 
-  "gore",
-  "!no-unauthenticated",
-  "illicit",
-  "self-harm",
-  "sensitive",
+  // "porn",
+  // "sexual",
+  // "graphic-media",
+  // "nudity",
+  // "nsfl", 
+  // "gore",
+  // "!no-unauthenticated",
+  // "illicit",
+  // "self-harm",
+  // "sensitive",
 ]);
 
 export const UNAUTHED_PREVENT_OPENING_WARNS = true;
@@ -132,12 +132,12 @@ export const UNAUTHED_PREVENT_OPENING_WARNS = true;
 // needs labelers to be set in FORCED_LABELER_DIDS and FORCE_HIDE_LABELS_WHITELISTED_SOURCE
 
 export const FORCE_HIDE_LABELS_WHITELISTED_SOURCE = new Set([
-  "did:plc:ar7c4by46qjdydhdevvrndac" // bluesky moderation
+  // "did:plc:ar7c4by46qjdydhdevvrndac" // bluesky moderation
 ])
 
 export const FORCE_HIDE_LABELS = new Set([
-  "!takedown",
-  "!hide",
+  // "!takedown",
+  // "!hide",
 ]);
 
 

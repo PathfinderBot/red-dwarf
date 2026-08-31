@@ -11,7 +11,7 @@ import { defineConfig } from "vite";
 
 import { generateMetadataPlugin } from "./oauthdev.mts";
 
-const PROD_URL = "https://red-dwarf.queersky.org";
+const PROD_URL = "https://reddwarf.queersky.org";
 const DEV_URL = "";
 
 const PROD_HANDLE_RESOLVER_PDS = "https://at.queersky.org";
