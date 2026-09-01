@@ -14,7 +14,7 @@ import { generateMetadataPlugin } from "./oauthdev.mts";
 const PROD_URL = "https://reddwarf.queersky.org";
 const DEV_URL = "";
 
-const PROD_HANDLE_RESOLVER_PDS = "https://at.queersky.org";
+const PROD_HANDLE_RESOLVER_PDS = "https://at.cubcock.net";
 const DEV_HANDLE_RESOLVER_PDS = "";
 let commitHash = "";
 try {
